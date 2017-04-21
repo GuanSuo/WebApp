@@ -1,0 +1,68 @@
+
+#EE{
+	margin-top: 70px ;
+}
+a{
+	margin-right: 10px;
+}
+.form-control{
+	max-width: 500px;
+}
+.container{
+	margin-top: 60px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;	
+}
+
+@media all and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  #Admin{
+margin-top: 60px;
+flex-direction: column;
+width: 80% ;
+}
+}
+.container>li{
+	margin-bottom:5px;
+	width: 150px;
+}
+
+#footer{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	
+}	
+#footer>img{
+	margin-right: 15px;
+}
+.table{
+	margin: 30px;
+	
+}
+.btn:hover{
+	border: 10px;
+}
+#Search{
+	margin: 30px;
+    margin-top:60px;	
+}
+#Admin{
+margin-top: 60px;
+margin-left:30px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;	
+}
+.tab-content{
+	margin-left:30px;
+}
+#Profile{
+	margin-bottom:70px;
+	flex-direction:column;
+}
